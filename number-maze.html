@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <title>Number Maze</title>
+        <meta http-equiv="x-ua-compatible" content="IE=edge" />
+        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-touch-fullscreen" content="yes">
+        <link rel="stylesheet" type="text/css" href="assets/css/snap.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/numbermaze.css" />
+    </head>
+    <body>
+        <div class="snap-drawers">
+            <div class="snap-drawer snap-drawer-left">
+                <div>
+                    <h3>Sidepanel</h3>
+                    <h4>Divider 1</h4>
+                    <ul>
+                        <li><a href="#">Option 1<span>value1</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="snap-drawer snap-drawer-right"></div>
+        </div>
+        
+        <div id="content" class="snap-content">
+            <div id="toolbar">
+                <a href="#" id="open-left"> Open</a>
+                <h1>Number Maze </h1>
+		<div id="main">
+  
+      <div id='services'></div>
+      <div id='sidebar'>
+          <p id='score'>Score: <span></span></p>
+        <p id='timeElapsed'>Time Left: <span></span></p>
+        
+        <p id="total">Sum: <span></span></p>
+        <p id='wantmod'>Get mod: <span></span></p>
+        <p id='avoidmod'>Avoid mod: <span></span></p>
+
+			  <div id="order">Submit</div>
+      </div>
+      <div id='clearer' style='clear:both'></div>
+
+
+		</div>
+
+
+            </div>
+        </div>
+		<script src="assets/js/jquery-1.10.1.min.js"></script>
+		<script src="assets/js/underscore-min.js"></script>
+		<script src="assets/js/backbone-min.js"></script>
+        
+        
+		<script src="assets/js/script.js"></script>
+        <script type="text/javascript" src="assets/js/snap.js"></script>
+        <script type="text/javascript">
+            var snapper = new Snap({
+                element: document.getElementById('content')
+            });
+            
+        </script>
+        <script type="text/javascript" src="assets/demo.js"></script>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>       
+    </body>
+</html>
+
+
