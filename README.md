@@ -5,9 +5,6 @@ Number Maze
 -- on touch screens (mobile and desktops), you can slide to reveal the menu
 -- on any screens with a mouse, you can simply drag
 
-[Try it out! Its a work in progress**](http:/www.stanleysoo.com/number_maze/number-maze.html)
-
-
 How to play:
 You have 'want mod' -> you want your sum to be modulus this value equal to 0
 You have 'avoid mod' -> you want to avoid having your sum be modulus this value equal to 0
